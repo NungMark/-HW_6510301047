@@ -130,8 +130,6 @@ if __name__ == '__main__':
         m.auto_move([move])
         time.sleep(0.5)
 
-    # Keep the program running until 'q' is pressed
     while True:
-        if keyboard.is_pressed("q"):
-            print("Quit Program")
-            break
+        m.printEND()
+        break
